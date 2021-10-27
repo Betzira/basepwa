@@ -1,0 +1,83 @@
+{
+  "configVersion": 1,
+  "timestamp": 1635312302359,
+  "index": "https://Betzira.github.io/basepwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://Betzira.github.io/basepwa/favicon.ico",
+        "https://Betzira.github.io/basepwa/index.html",
+        "https://Betzira.github.io/basepwa/main.0098a17c7d11dc60c3f8.js",
+        "https://Betzira.github.io/basepwa/manifest.webmanifest",
+        "https://Betzira.github.io/basepwa/polyfills.77a1993727a31fa030dd.js",
+        "https://Betzira.github.io/basepwa/runtime.18821b64a88c577ecb6a.js",
+        "https://Betzira.github.io/basepwa/styles.11cf6b3a7e166a1bde8d.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://Betzira.github.io/basepwa/assets/icons/icon-128x128.png",
+        "https://Betzira.github.io/basepwa/assets/icons/icon-144x144.png",
+        "https://Betzira.github.io/basepwa/assets/icons/icon-152x152.png",
+        "https://Betzira.github.io/basepwa/assets/icons/icon-192x192.png",
+        "https://Betzira.github.io/basepwa/assets/icons/icon-384x384.png",
+        "https://Betzira.github.io/basepwa/assets/icons/icon-512x512.png",
+        "https://Betzira.github.io/basepwa/assets/icons/icon-72x72.png",
+        "https://Betzira.github.io/basepwa/assets/icons/icon-96x96.png",
+        "https://Betzira.github.io/basepwa/assets/shipping.json"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://Betzira.github.io/basepwa/assets/icons/icon-128x128.png": "94a98a0ec64d76a0d8119b795935136c0e723ceb",
+    "https://Betzira.github.io/basepwa/assets/icons/icon-144x144.png": "0b09da7d67a4892f7563a95f446019611e1f660f",
+    "https://Betzira.github.io/basepwa/assets/icons/icon-152x152.png": "7cf11730f5eeb6c9224232e736ab75fea06d16fc",
+    "https://Betzira.github.io/basepwa/assets/icons/icon-192x192.png": "5ff012377292ae84fffbb2abd0cc093a2eac48eb",
+    "https://Betzira.github.io/basepwa/assets/icons/icon-384x384.png": "cfa40b9ca9d61b60620b82ef4670dee3bfd96a03",
+    "https://Betzira.github.io/basepwa/assets/icons/icon-512x512.png": "476708adb6dad15577cca1e15abc1f5226ccacad",
+    "https://Betzira.github.io/basepwa/assets/icons/icon-72x72.png": "e8fdba58917b3ef086708d7df4f4ad0571343543",
+    "https://Betzira.github.io/basepwa/assets/icons/icon-96x96.png": "b4093bab0dc7af040ccf19442ab44ec78094059e",
+    "https://Betzira.github.io/basepwa/assets/shipping.json": "9f9e342c76babd68907ccdb6c8d75b761fac74e1",
+    "https://Betzira.github.io/basepwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://Betzira.github.io/basepwa/index.html": "12019dc2b52eb8be48617f9be118c1eea18dc8f2",
+    "https://Betzira.github.io/basepwa/main.0098a17c7d11dc60c3f8.js": "0776ae00ed789373c30d64c7e8891c9c7286c663",
+    "https://Betzira.github.io/basepwa/manifest.webmanifest": "5b11e35c68e709b7cac3f52993049cc430ce1626",
+    "https://Betzira.github.io/basepwa/polyfills.77a1993727a31fa030dd.js": "4cf661614a4ec3db0f1098456e80b8d00128d1d0",
+    "https://Betzira.github.io/basepwa/runtime.18821b64a88c577ecb6a.js": "7e55b36d225118431e7c39e9bc0c06b3379216b2",
+    "https://Betzira.github.io/basepwa/styles.11cf6b3a7e166a1bde8d.css": "afdfbd6fa0a454418a996df3f3117579c16d465e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
